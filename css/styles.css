@@ -44,14 +44,13 @@ body {
   color: #2e2f42;
 }
 
-.suptitle-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
+.suptitle-theme-light {
+  color: #e7e9fc;
 }
 
+.suptitle-theme-dark {
+  color: #000000;
+}
 /* ================== /COMPONENTS ================== */
 
 /*========= HEADER ===============*/
