@@ -11,13 +11,27 @@
   --hero-color-bg: rgba(46, 47, 66, 0.7);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 /* =========== styles remove =========  */
 .list {
@@ -32,7 +46,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
 }
 .web-color {
   color: #4d5ae5;
@@ -47,7 +61,7 @@ body {
 .suptitle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -55,7 +69,7 @@ body {
 .suptitle-3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   /* text-align: center; */
   color: #2e2f42;
 }
@@ -97,29 +111,39 @@ body {
 
 /* =================HERO================= */
 
+.hero {
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: #2e2f42;
+}
 .main-title {
+  /* position: absolute; */
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
-  /* color: #ffffff; */
+  /* text-align: center; */
+  color: #ffffff;
 }
 
 .order-btn {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
   /* display: flex;
   align-items: center; */
   letter-spacing: 0.04em;
   color: #ffffff;
-  width: 169px;
+  /* width: 169px;
   height: 56px;
   left: 20px;
-  top: 20px;
+  top: 20px; */
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  /* border-radius: 4px; */
 }
 
 .order-btn:hover,
@@ -130,10 +154,19 @@ body {
 
 /* ================= /HERO ================= */
 
+/* ================== what are we doing ====== */
+
+/* ================== /what are we doing ====== */
+/* =================== Team ============== */
+.team {
+  background-color: var(--light-color-bg);
+}
+/* =================== /Team ============== */
+
 /* =============FOOTER=================== */
 
 .footer-bck {
-  position: absolute;
+  /* position: absolute; */
   width: 1440px;
   height: 310px;
   left: 0px;
