@@ -1,4 +1,22 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --presed-state-color: #404bbf;
+  --dark-color-bg: #2e2f42;
+  --success-color-bg: #31d0aa;
+  --text-color-bg: #434455;
+  --sabtle-text-color-bg: #8e8f99;
+  --accent-color-bg: #e7e9fc;
+  --light-color-bg: #f4f4fd;
+  --overlay-color-bg: rgba(46, 47, 66, 0.4);
+  --hero-color-bg: rgba(46, 47, 66, 0.7);
+}
+
 body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
   background-color: #ffffff;
 }
 /* =========== styles remove =========  */
@@ -30,7 +48,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -40,10 +57,13 @@ body {
   font-size: 20px;
   line-height: 24px;
   /* text-align: center; */
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
+.suptitle-txt {
+  font-weight: 400;
+  color: #434455;
+}
 .suptitle-theme-light {
   color: #e7e9fc;
 }
@@ -57,9 +77,6 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -71,18 +88,12 @@ body {
 .contact-phone-mail {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .contact-phone-mail:active {
   color: #2e2f42;
 }
 /* ================/HEADER ============== */
-.main-font {
-  font-family: "Roboto", sans-serif;
-}
 
 /* =================HERO================= */
 
@@ -91,7 +102,6 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   /* color: #ffffff; */
 }
 
