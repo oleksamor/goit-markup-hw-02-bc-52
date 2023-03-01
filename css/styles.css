@@ -5,10 +5,13 @@
   --success-color-bg: #31d0aa;
   --text-color-bg: #434455;
   --sabtle-text-color-bg: #8e8f99;
-  --accent-color-bg: #e7e9fc;
+  --accent-color: #e7e9fc;
   --light-color-bg: #f4f4fd;
   --overlay-color-bg: rgba(46, 47, 66, 0.4);
   --hero-color-bg: rgba(46, 47, 66, 0.7);
+  --title-text-color: #2e2f42;
+  --primary-bg-color: #ffffff;
+  --primary-white-color: #ffffff;
 }
 
 .visually-hidden {
@@ -30,8 +33,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  /* background-color: #ffffff; */
+  /* color: var(); */
+  /* background-color: var{--primary-bg-color} */
 }
 /* =========== styles remove =========  */
 .list {
@@ -66,12 +69,12 @@ body {
   color: #2e2f42;
 }
 
-.suptitle-3 {
+.heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   /* text-align: center; */
-  color: #2e2f42;
+  color: var(title-text-color);
 }
 
 .suptitle-txt {
@@ -131,32 +134,21 @@ body {
   color: #ffffff;
 }
 
-.order-btn {
-  font-weight: 500;
-  /* display: flex;
-  align-items: center; */
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  /* width: 169px;
-  height: 56px;
-  left: 20px;
-  top: 20px; */
-  background: #4d5ae5;
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-  /* border-radius: 4px; */
+/* ========= Button ============== */
+
+.button {
+  
+  color: var(--primary-brand-color);
+  background-color: var(--primary-bg-color);
 }
 
-.order-btn:hover,
-.order-btn:focus {
+.button:hover,
+.button:focus {
   background: #404bbf;
   color: #ffffff;
 }
+/* ========= /Button ============== */
 
-/* ================= /HERO ================= */
-
-/* ================== what are we doing ====== */
-
-/* ================== /what are we doing ====== */
 /* =================== Team ============== */
 .team {
   background-color: var(--light-color-bg);
@@ -166,10 +158,9 @@ body {
 /* =============FOOTER=================== */
 
 .footer-bck {
-  /* position: absolute; */
-  width: 1440px;
+   width: 1440px;
   height: 310px;
   left: 0px;
   top: 2280px;
-  background: #2e2f42;
+  background: var(--dark-color-bg);
 }
