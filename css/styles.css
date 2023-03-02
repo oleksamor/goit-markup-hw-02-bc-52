@@ -99,7 +99,7 @@ body {
 
 .menu .menu-link:hover,
 .menu .menu-link:focus {
-  color: #404bbf;
+  color: var(presed-state-color);
 }
 
 .contact-phone-mail {
@@ -108,7 +108,7 @@ body {
   color: #434455;
 }
 .contact-phone-mail:active {
-  color: #2e2f42;
+  color: var(--dark-color-bg);
 }
 /* ================/HEADER ============== */
 
@@ -135,9 +135,7 @@ body {
 }
 
 /* ========= Button ============== */
-
 .button {
-  
   color: var(--primary-brand-color);
   background-color: var(--primary-bg-color);
 }
@@ -157,8 +155,8 @@ body {
 
 /* =============FOOTER=================== */
 
-.footer-bck {
-   width: 1440px;
+.footer-content {
+  width: 1440px;
   height: 310px;
   left: 0px;
   top: 2280px;
