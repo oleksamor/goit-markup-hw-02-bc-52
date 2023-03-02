@@ -52,10 +52,10 @@ body {
   line-height: 1.17;
 }
 .web-color {
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 .studio-color {
-  color: #2e2f42;
+  color: var(--dark-color-bg);
 }
 .studio-color-footer {
   color: #f4f4fd;
@@ -74,7 +74,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   /* text-align: center; */
-  color: var(title-text-color);
+  color: var(--title-text-color);
 }
 
 .suptitle-txt {
@@ -99,7 +99,7 @@ body {
 
 .menu .menu-link:hover,
 .menu .menu-link:focus {
-  color: var(presed-state-color);
+  color: var(--presed-state-color);
 }
 
 .contact-phone-mail {
