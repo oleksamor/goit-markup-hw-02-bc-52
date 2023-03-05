@@ -1,4 +1,6 @@
 :root {
+  --primary-font-family: Roboto;
+  --secondary-font-family: Raleway;
   --primary-brand-color: #4d5ae5;
   --presed-state-color: #404bbf;
   --dark-color-bg: #2e2f42;
@@ -12,6 +14,13 @@
   --title-text-color: #2e2f42;
   --primary-bg-color: #ffffff;
   --primary-white-color: #ffffff;
+  --header1-font-size: 56px;
+    --header2-font-size: 36px;
+    --header3-font-size: 20px;
+    --logo-font-size: 18px;
+    --regular-font-size: 16px;
+    --text-font-size: 14px; 
+    --text-font-weight: 400;
 }
 
 .visually-hidden {
@@ -28,13 +37,14 @@
   overflow: hidden;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
+body { 
+  background-color: var{--primary-bg-color} 
+  font-family: var(--primary-font-family), sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   /* color: var(); */
-  /* background-color: var{--primary-bg-color} */
+ 
 }
 /* =========== styles remove =========  */
 .list {
@@ -104,8 +114,7 @@ body {
 
 .contact-phone-mail {
   font-style: normal;
-  font-weight: 400;
-  color: #434455;
+  color: var(--dark-color-bg);
 }
 .contact-phone-mail:active {
   color: var(--dark-color-bg);
