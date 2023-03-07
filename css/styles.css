@@ -1,6 +1,6 @@
 :root {
-  --primary-font-family: "Roboto";
-  --secondary-font-family: "Raleway";
+  --primary-font-family: 'Roboto';
+  --secondary-font-family: 'Raleway';
   --primary-brand-color: #4d5ae5;
   --presed-state-color: #404bbf;
   --dark-color-bg: #2e2f42;
@@ -22,9 +22,6 @@
   --header-3-font-size: 20px;
   --header-3-font-weight: 500;
   --logo-font-size: 18px;
-  --regular-font-size: 16px;
-  --text-font-size: 14px;
-  --text-font-weight: 400;
 }
 
 .visually-hidden {
@@ -39,10 +36,6 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.pointer {
-  cursor: pointer;
 }
 
 body {
@@ -96,12 +89,9 @@ body {
   color: var(--text-color-bg);
 }
 .suptitle-theme-light {
-  color: #e7e9fc;
+  color: var(--accent-color);
 }
 
-.suptitle-theme-dark {
-  color: #000000;
-}
 /* ================== /COMPONENTS ================== */
 
 /*========= HEADER ===============*/
@@ -116,12 +106,14 @@ body {
   color: var(--presed-state-color);
 }
 
-.contact-phone-mail {
+.contact-mail,
+.contact-phone {
   font-style: normal;
   color: var(--dark-color-bg);
 }
-.contact-phone-mail:active {
-  color: var(--dark-color-bg);
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--presed-state-color);
 }
 /* ================/HEADER ============== */
 
@@ -133,20 +125,49 @@ body {
 .main-title {
   font-size: 56px;
   line-height: 1.07;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 /* ========= Button ============== */
-.button {
+.hero-button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 169px;
+  height: 56px;
+  left: 20px;
+  top: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   color: var(--primary-bg-color);
   background-color: var(--primary-brand-color);
 }
 
-.button:hover,
-.button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background: var(--presed-state-color);
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
+.pointer {
+  width: 116px;
+  height: 48px;
+  border: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  cursor: pointer;
+}
+
+.pointer:hover,
+.pointer:focus {
+  background: var(--presed-state-color);
+  color: var(--primary-white-color);
+}
+
 /* ========= /Button ============== */
 
 /* =================== Team ============== */
