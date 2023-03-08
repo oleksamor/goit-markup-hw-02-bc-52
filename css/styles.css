@@ -41,8 +41,7 @@
 body {
   background-color: var(--primary-bg-color);
   font-family: var(--primary-font-family), sans-serif;
-  font-size: var(--regular-font-size);
-  line-height: 1.5;
+line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* =========== styles remove =========  */
@@ -70,14 +69,14 @@ body {
   color: #f4f4fd;
 }
 /* ================== COMPONENTS ================== */
-.suptitle {
+.subtitle {
   font-size: var(--header-2-font-size);
   line-height: var(--header-2-line-height);
   text-transform: capitalize;
   color: var(--title-text-color);
 }
 
-.section-suptitle {
+.section-subtitle {
   font-weight: var(--header-3-font-weight);
   font-size: var(--header-3-font-size);
   line-height: 1.2;
@@ -85,10 +84,15 @@ body {
   color: var(--title-text-color);
 }
 
+.subtitle-text{
+color: var(--text-color-bg);
+
+} 
+
 .project-txt {
   color: var(--text-color-bg);
 }
-.suptitle-theme-light {
+.footer-text {
   color: var(--accent-color);
 }
 
@@ -130,18 +134,18 @@ body {
 
 /* ========= Button ============== */
 .hero-button {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   width: 169px;
   height: 56px;
-  left: 20px;
-  top: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--primary-bg-color);
   background-color: var(--primary-brand-color);
+  cursor: pointer;
+  border: none;
 }
 
 .hero-button:hover,
@@ -150,10 +154,11 @@ body {
   color: var(--primary-white-color);
 }
 .pointer {
-  width: 116px;
-  height: 48px;
-  border: none;
-  font-family: 'Roboto';
+  padding: 12px 24px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  background:var(--light-color-bg);
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
