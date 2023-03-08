@@ -86,12 +86,8 @@ line-height: 1.5;
 
 .subtitle-text{
 color: var(--text-color-bg);
-
 } 
 
-.project-txt {
-  color: var(--text-color-bg);
-}
 .footer-text {
   color: var(--accent-color);
 }
