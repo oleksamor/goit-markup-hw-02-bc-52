@@ -72,6 +72,7 @@ a {
 body {
   background-color: var(--primary-bg-color);
   font-family: var(--primary-font-family), sans-serif;
+  color: var(--text-color-bg);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -159,8 +160,8 @@ body {
 .header-item:last-child {
   margin-right: 0;
 }
-.contacts-item {
-}
+/* .contacts-item {
+} */
 
 .menu .menu-link:hover,
 .menu .menu-link:focus {
