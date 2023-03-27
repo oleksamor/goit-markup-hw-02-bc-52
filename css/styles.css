@@ -229,8 +229,18 @@ body {
   background: var(--presed-state-color);
   color: var(--primary-white-color);
 }
-
 /* ========= /Button ============== */
+
+/** =========== Feature =========== **/
+.feature {
+  padding: 120px 0;
+}
+/** =========== /Feature =========== **/
+
+/** ============= action ============ **/
+.action {
+}
+/** ============= /action ============ **/
 
 /* =================== Team ============== */
 .team {
