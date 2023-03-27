@@ -72,6 +72,7 @@ a {
 body {
   background-color: var(--primary-bg-color);
   font-family: var(--primary-font-family), sans-serif;
+  color: var(--text-color-bg);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -120,11 +121,14 @@ body {
   font-size: var(--logo-font-size);
   font-weight: 800;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   width: 115px;
   height: 24px;
   left: 156px;
   top: 24px;
   padding: 0px;
+  color: var(--primary-brand-color);
 }
 .web-color {
   color: var(--primary-brand-color);
@@ -159,8 +163,8 @@ body {
 .header-item:last-child {
   margin-right: 0;
 }
-.contacts-item {
-}
+/* .contacts-item {
+} */
 
 .menu .menu-link:hover,
 .menu .menu-link:focus {
